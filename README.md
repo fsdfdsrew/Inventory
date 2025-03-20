@@ -1,5 +1,43 @@
-# Vue 3 + TypeScript + Vite
+# 🎒 Inventory
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Inventory — это приложение для управления инвентарём с удобным интерфейсом и возможностью перетаскивания предметов (drag & drop).
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 Функционал
+
+* Drag & Drop для перемещения предметов между ячейками
+* Кастомное перетаскивание предметов
+* Автогенерация цветов для предметов
+* Модальное окно с детальной информацией о предмете
+* Сохранение состояния инвентаря
+
+## 🛠 Технологии
+
+* Vue 3 (Composition API, <script setup>)
+* Vite (Быстрая сборка)
+* TypeScript (Строгая типизация)
+* Pinia (Менеджер состояния)
+
+## 📦 Установка и запуск
+
+```bash
+# Клонирование репозитория
+git clone https://github.com/fsdfdsrew/Inventory.git
+cd inventory
+
+# Установка зависимостей
+yarn install
+
+# Запуск проекта
+yarn dev
+```
+
+Проект откроется по адресу http://localhost:5173
+
+## 📸 Скриншоты
+![image](https://github.com/user-attachments/assets/c7932fa5-96ad-4fcf-840f-bba96f7e5f52)
+
+_Инвентарь с открытым модальным окном_
+
+![image](https://github.com/user-attachments/assets/18c32abb-7b7b-4f89-9c75-d26b42d056c8)
+
+_Кастомное перетаскивание_
